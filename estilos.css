@@ -1,0 +1,51 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container-button{
+    display: flex;
+    justify-content: center;
+    background-color: #9e54bd;
+    box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.192);
+    
+
+}
+
+.add-cart {
+    background-color: #823aa0;
+    border: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    width: 200;
+    padding: 0px 30px;
+    margin: 30px;
+    overflow: hidden;
+    /* hace que si un elemento se va de su contenedor NO se visuali */
+
+} 
+
+.add-cart i {
+    transform: translate(0px, -35px);
+    font-size: 25px;
+    transition: 200ms;
+}
+
+.add-cart p {
+    transform: translate( 0px, -12px);
+    transition: 200ms;
+}
+
+.add-cart:hover i {
+    transform: translate(0px, 18px);
+
+}
+
+.add-cart:hover p {
+    transform: translate(0px, 35px);
+
+}
+
+
